@@ -2,42 +2,48 @@ body {
     font-family: sans-serif; 
     text-align: center; 
     padding: 50px; 
-    background-color: #f4f4f4;
+    background-color: darkslategray;
     margin: 0; 
 }
 
 .card { 
-    background: white; 
+    background: wheat; 
     padding: 30px; 
     border-radius: 10px; 
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+    box-shadow: 0 12px 24px rgba(0,0,0,0.5); 
     display: inline-block; 
     max-width: 500px;
     width: 100%;
 }
 
 h1 { 
-    color: #333;
+    color: darkslategray;
     margin-bottom: 20px; 
 }
+/* Estilos para el titulo */
 
 select, input, button { 
     margin: 10px 0;
     padding: 10px; 
     border-radius: 5px; 
-    border: 1px solid #ccc;
+    border: 1px solid darkslategray;
+    background-color: white;
     width: 90%; 
 }
+/* Estilos para los inputs del usuario */
 
 button { 
-    background-color: #007bff; 
-    color: white; 
+    background-color: wheat; 
+    color: darkslategray; 
     border: none; 
     cursor: pointer; 
     font-weight: bold;
     transition: background-color 0.3s ease; 
 }
+/* Estilos para el boton de descarga */
 
 button:hover { 
-    background-color: #0056b3; 
+    background-color: darkslategray; 
+    color: wheat;
 }
+/* Boton de descarga cuando le pasas el cursor encima */

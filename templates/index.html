@@ -4,14 +4,15 @@
 <head> 
     <meta charset="UTF-8">
     <title>Marto´s Python Images Converter</title>
-    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}"> <!--linkeamos el archivo de esta manera para mas comodidad con flask-->
 </head>
 
 <body>
     <div class="card">
-        <h1>A Little Image Converter</h1>
-        <form action="/convertir" method="POST" enctype="multipart/form-data">
-
+        <h1>A Little Image Converter</h1> 
+        <form action="/convertir" method="POST" enctype="multipart/form-data"> <!--formulario que envia el archivo al servidor,-->
+            <!-- enctype="multipart/form-data" es necesario para subir archivos, ya que permite enviar archivos binarios-->
+            <!-- el method "POST" sirve para enviar datos al servidor de manera segura-->
             <label>★Sube tu imagen y selecciona el formato a cambiar★</label><br>
             <input type="file" name="archivo_del_usuario" required><br><br>
             
