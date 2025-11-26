@@ -1,0 +1,43 @@
+body {
+    font-family: sans-serif; 
+    text-align: center; 
+    padding: 50px; 
+    background-color: #f4f4f4;
+    margin: 0; 
+}
+
+.card { 
+    background: white; 
+    padding: 30px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+    display: inline-block; 
+    max-width: 500px;
+    width: 100%;
+}
+
+h1 { 
+    color: #333;
+    margin-bottom: 20px; 
+}
+
+select, input, button { 
+    margin: 10px 0;
+    padding: 10px; 
+    border-radius: 5px; 
+    border: 1px solid #ccc;
+    width: 90%; 
+}
+
+button { 
+    background-color: #007bff; 
+    color: white; 
+    border: none; 
+    cursor: pointer; 
+    font-weight: bold;
+    transition: background-color 0.3s ease; 
+}
+
+button:hover { 
+    background-color: #0056b3; 
+}

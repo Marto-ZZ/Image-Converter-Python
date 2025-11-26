@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head> 
+    <meta charset="UTF-8">
+    <title>Marto´s Python Images Converter</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+</head>
+
+<body>
+    <div class="card">
+        <h1>A Little Image Converter</h1>
+        <form action="/convertir" method="POST" enctype="multipart/form-data">
+
+            <label>★Sube tu imagen y selecciona el formato a cambiar★</label><br>
+            <input type="file" name="archivo_del_usuario" required><br><br>
+            
+            <select name="formato_a_cambiar">
+                <option value="png">.PNG</option>
+                <option value="jpg">.JPG</option>
+                <option value="webp">.WEBP</option>
+            </select><br><br>
+
+            <button type="submit">Convertir y Descargar</button>
+        </form>
+    </div>
+</body>
+
+</html>

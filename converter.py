@@ -25,3 +25,5 @@ def cambiar_formato_imagen(directorio_imagen, formato_a_cambiar):   #funcion que
         formato_de_pillow = extension_final.upper()                 #si no es jpg o jpeg usamos la extension en mayusculas como formato de pillow
 
     imagen.save(nombre_final, format=formato_de_pillow)             #guardamos la imagen en el nuevo formato
+
+    return nombre_final
