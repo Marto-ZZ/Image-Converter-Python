@@ -1,5 +1,5 @@
-from PIL import Image  #Importamos la libreria Pillow para el manejo de imagenes
-import os              #Importamos la libreria os para el manejo de archivos, directorios y extensiones
+from PIL import Image                                               #Importamos la libreria Pillow para el manejo de imagenes
+import os                                                           #Importamos la libreria os para el manejo de archivos, directorios y extensiones
 
 def cambiar_formato_imagen(directorio_imagen, formato_a_cambiar):   #funcion que toma una imagen y la convierte al formato que se le indique
 
